@@ -5,6 +5,11 @@ body {
 h1 {
   color: #081C15;
 }
+
+/* h2 {
+  color: #081C15;
+} */
+
 nav {
   display: flex;
   justify-content: space-around;
