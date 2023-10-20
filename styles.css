@@ -42,6 +42,10 @@ nav li {
   display: flex;
 }
 
+.throwing {
+  display: flex;
+}
+
 .perpetual {
   display: flex;
 }
