@@ -6,7 +6,7 @@ h1 {
   color: #081C15;
 }
 
-/* h2 {
+/* h3 {
   color: #081C15;
 } */
 
@@ -37,4 +37,8 @@ img{
   max-width: 35%;
   padding: 10px;
   box-sizing: border-box;
+}
+
+input {
+  margin: 2px
 }
