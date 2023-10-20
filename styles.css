@@ -6,9 +6,9 @@ h1 {
   color: #081C15;
 }
 
-/* h3 {
+h3 {
   color: #081C15;
-} */
+}
 
 nav {
   display: flex;
@@ -29,9 +29,16 @@ nav li {
   margin: 0px 10px;
 }
 
-.about {
+
+.about-main, .hiking, .gaming {
   display: flex;
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
 
 img{
   max-width: 35%;
