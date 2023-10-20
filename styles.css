@@ -2,7 +2,7 @@ body {
   background-color: #40916C;
 }
 
-img{
+img {
   max-width: 35%;
   padding: 10px;
   box-sizing: border-box;
@@ -41,9 +41,13 @@ nav li {
 
 .about-main {
   display: flex;
-  flex-wrap: wrap;}
+}
 
-.gaming, .hiking, .throwing, .perpetual, .time-travel {
+.gaming,
+.hiking,
+.throwing,
+.perpetual,
+.time-travel {
   display: flex;
 }
 
@@ -56,8 +60,9 @@ div:nth-child(even) {
   border: #081C15 1px;
   border-style: solid none;
 }
- 
-.about, .my-portfolio {
+
+.about,
+.my-portfolio {
   display: flex;
   flex-direction: column;
 }
@@ -68,10 +73,29 @@ div:nth-child(even) {
 }
 
 .nav-button:hover {
-  color:#D8F3DC;
+  color: #D8F3DC;
 }
 
 
 input {
   margin: 2px
 }
+
+@media (max-width: 720px) {
+
+  .about-main,
+  .gaming,
+  .hiking,
+  .throwing,
+  .perpetual,
+  .time-travel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 240px;
+  }
+}
+
+/* used @media query for 720px to simultaneously fix image compression issues and provide a smoother mobile browsing experience */
