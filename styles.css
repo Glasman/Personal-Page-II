@@ -30,8 +30,28 @@ nav li {
 }
 
 
-.about-main, .hiking, .gaming {
+.about-main {
   display: flex;
+  flex-wrap: wrap;}
+
+.gaming {
+  display: flex;
+}
+
+.hiking {
+  display: flex;
+}
+
+.perpetual {
+  display: flex;
+}
+ 
+.time-travel {
+  display: flex;
+}
+.my-portfolio {
+  display: flex;
+  flex-direction: column;
 }
 
 .about {
@@ -39,6 +59,13 @@ nav li {
   flex-direction: column;
 }
 
+.nav-button {
+  color: #b7e4c7;
+}
+
+.nav-button:hover {
+  color:#D8F3DC;
+}
 
 img{
   max-width: 35%;
